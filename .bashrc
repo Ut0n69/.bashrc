@@ -1,25 +1,24 @@
-# This is a prompt.
 export PS1="[ \w ] "
 
-# A function to git add, commit and push.
 gitpush() {
   git add .
   git commit -m "$*"
   git push origin HEAD
 }
 
-#A function to git add and commit.
 gitcommit() {
   git add .
   git commit -m "$*"
 }
 
-# My alias
 alias c="clear"
 alias l="ls -al"
+alias gita="git add ."
 alias gitb="git branch"
-alias gitd="git branch -D"
+alias gitc="git commit -m"
 alias gitch="git checkout"
+alias gitp="git push origin"
 alias gits="git status"
+alias gitr="git reset --soft HEAD^"
 alias gp=gitpush
 alias gc=gitcommit
