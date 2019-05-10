@@ -22,3 +22,5 @@ alias gits="git status"
 alias gitr="git reset --soft HEAD^"
 alias gp=gitpush
 alias gc=gitcommit
+
+alias bs="browser-sync --server --files '**/*'"
