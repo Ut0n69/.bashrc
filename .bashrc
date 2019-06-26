@@ -38,3 +38,5 @@ alias d="yarn dev"
 alias dc="yarn dev:client"
 alias ds="yarn dev:server"
 alias s="yarn serve"
+
+alias m="/Users/NAME/Documents/memo"
